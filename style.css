@@ -11,8 +11,8 @@ body {
 
 /* Add styles here! */
 
-.max-width-wrapper {
-  width: 600px;
+/* .max-width-wrapper {
+  max-width: 800px;
   margin-right: auto;
   margin-left: auto;
   margin-top: 20px;
@@ -51,4 +51,55 @@ h2.indented-heading {
   width: 300px;
 }
 
+ */
+
+
+.max-width-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.intro-chunk {
+  padding-top: 96px;
+}
+
+.intro-chunk p {
+  max-width: 300px;
+}
+
+main {
+  background-color: hsl(0deg, 0%, 60%);
+  margin: 0 auto;
+  padding: 96px 0px;
+}
+
+.card {
+  background-color: white;
+  padding: 24px;
+  margin-left: -24px;
+  border-bottom: 8px solid hsl(0deg, 0%, 30%);
+}
+
+.indented-heading {
+  background-color: hsl(45deg, 100%, 50%);
+  margin-left: -32px;
+  padding: 24px;
+  padding-left: 32px;
+  border-bottom: 8px solid hsl(45deg, 100%, 40%);
+  max-width: fit-content;
+  margin-top: -8px;
+}
+
+header {
+  border-bottom: 8px solid hsl(0deg, 0%, 30%);
+}
+
+.card p:last-child {
+  margin-bottom: 0;
+}
+
+.intro-chunk strong {
+    color: hsl(160deg, 100%, 30%);
+}
 
